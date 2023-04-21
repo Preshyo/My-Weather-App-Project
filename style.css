@@ -1,0 +1,56 @@
+body{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    
+}
+h1{
+    font-size: 30px;
+text-align: center;
+  
+}
+form{
+    text-align: center;
+    margin: 30px;
+}
+
+.button{
+    display: inline;
+    background: rgb(224, 110, 224);
+    color: white;
+    border: rgb(224, 110, 224);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px ;
+    padding:  06px 30px;
+    transition: all 200ms ease-in-out;
+    
+}
+.button:hover {
+    cursor: pointer;
+    background: rgb(248, 214, 242);
+    color: rgb(224, 110, 224);
+    
+}
+.col:hover {
+    color: rgb(224, 110, 224);
+    cursor: pointer;
+
+}
+
+input{
+    border-radius: 6px;
+padding: 04px 08px;
+
+}
+ul {
+    list-style: none;
+}
+.today{
+    color: rgb(187, 185, 185);
+     padding-bottom:20px;
+     
+}
+.temperature{
+    
+}

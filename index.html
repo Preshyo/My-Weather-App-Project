@@ -5,19 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        h1 {
-            text-align: center;
-            color: red;
-        }
-    </style>
+    <title>weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
-    <h1>
-        Hello Git
-    </h1>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h1>😍WEATHER FORECAST</h1>
+                <form id="search-form">
+                    <input type="search" id="city-input" autofocus="on" , autocomplete="off" placeholder="enter a city... ">
+                    <input type="submit" class="button" value="search">
+
+                </form>
+                <p>
+                    <h2>
+
+
+                        <div class="row">
+                            <div class="col" id="city">Portharcourt</div>
+                            <div class="col" id="temp"></div>
+
+                            <div class="float-left">
+                                <span class="temperature" id="temperature">🌧 19</span>
+                                <span class="units">
+                                    <a href="" id="celsius-link">°c</a> |
+                                    <a href="" id="fahrenheit-link">°f</a>
+                                </span>
+                            </div>
+                        </div>
+                    </h2>
+                    <ul>
+                        <li id="date"> </li>
+                        <li>humidity:
+                            <span id="humidity"> 50 </span> %
+                        </li>
+                        <li>wind:
+                            <span id="wind"> 6 </span>km/h
+                        </li>
+
+                    </ul>
+
+                </p>
+
+                <br/>
+                <div class="row">
+                    <div class="col"> SUN
+                        <div>🌧 </div>
+                        <div>
+                            <strong>43°</strong> 24°</div>
+                    </div>
+
+                    <div class="col">MON
+                        <div> ⛅</div>
+                        <div>
+                            <strong>51°</strong> 32°</div>
+                    </div>
+
+                    <div class="col">TUE
+                        <div> 🌙</div>
+                        <div>
+                            <strong>35°</strong> 12°</div>
+                    </div>
+
+                    <div class="col">WED
+                        <div>☀</div>
+                        <div>
+                            <strong>67°</strong> 33°</div>
+                    </div>
+
+                    <div class="col">THU
+                        <div> 🌩</div>
+                        <div>
+                            <strong>58° </strong> 27°</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
 </body>
 
 </html>
